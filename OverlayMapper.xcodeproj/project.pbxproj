@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		594375B411FB3AA800CCB3CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 594375B311FB3AA800CCB3CA /* UIKit.framework */; };
+		594375B611FB3AA800CCB3CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 594375B511FB3AA800CCB3CA /* Foundation.framework */; };
+		594375B811FB3AA800CCB3CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 594375B711FB3AA800CCB3CA /* CoreGraphics.framework */; };
+		594375BD11FB3AA800CCB3CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 594375BB11FB3AA800CCB3CA /* InfoPlist.strings */; };
+		594375BF11FB3AA800CCB3CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 594375BE11FB3AA800CCB3CA /* main.m */; };
+		594375C211FB3AA800CCB3CA /* OverlayMapperAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 594375C111FB3AA800CCB3CA /* OverlayMapperAppDelegate.m */; };
+		594375C511FB3AA800CCB3CA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 594375C311FB3AA800CCB3CA /* MainWindow.xib */; };
+		594375C811FB3AA800CCB3CA /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 594375C711FB3AA800CCB3CA /* RootViewController.m */; };
+		594375CB11FB3AA800CCB3CA /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 594375C911FB3AA800CCB3CA /* RootViewController.xib */; };
+		59A6549811FB677C00C89F18 /* AnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A6549511FB677C00C89F18 /* AnnotationView.m */; };
+		59A6549911FB677C00C89F18 /* CurrentLocationAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A6549711FB677C00C89F18 /* CurrentLocationAnnotation.m */; };
+		59EE625311FB584C0046466B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59EE625211FB584B0046466B /* MapKit.framework */; };
+		59EE625811FB58530046466B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59EE625711FB58530046466B /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		594375B011FB3AA800CCB3CA /* OverlayMapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OverlayMapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		594375B311FB3AA800CCB3CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		594375B511FB3AA800CCB3CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		594375B711FB3AA800CCB3CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		594375B911FB3AA800CCB3CA /* OverlayMapper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OverlayMapper-Info.plist"; sourceTree = "<group>"; };
+		594375BA11FB3AA800CCB3CA /* OverlayMapper_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OverlayMapper_Prefix.pch; sourceTree = "<group>"; };
+		594375BC11FB3AA800CCB3CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		594375BE11FB3AA800CCB3CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		594375C011FB3AA800CCB3CA /* OverlayMapperAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OverlayMapperAppDelegate.h; sourceTree = "<group>"; };
+		594375C111FB3AA800CCB3CA /* OverlayMapperAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverlayMapperAppDelegate.m; sourceTree = "<group>"; };
+		594375C411FB3AA800CCB3CA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		594375C611FB3AA800CCB3CA /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; wrapsLines = 0; };
+		594375C711FB3AA800CCB3CA /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; wrapsLines = 0; };
+		594375CA11FB3AA800CCB3CA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		59A6549411FB677C00C89F18 /* AnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnotationView.h; sourceTree = "<group>"; };
+		59A6549511FB677C00C89F18 /* AnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnotationView.m; sourceTree = "<group>"; };
+		59A6549611FB677C00C89F18 /* CurrentLocationAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentLocationAnnotation.h; sourceTree = "<group>"; };
+		59A6549711FB677C00C89F18 /* CurrentLocationAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentLocationAnnotation.m; sourceTree = "<group>"; };
+		59EE625211FB584B0046466B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		59EE625711FB58530046466B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		594375AD11FB3AA800CCB3CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594375B411FB3AA800CCB3CA /* UIKit.framework in Frameworks */,
+				594375B611FB3AA800CCB3CA /* Foundation.framework in Frameworks */,
+				594375B811FB3AA800CCB3CA /* CoreGraphics.framework in Frameworks */,
+				59EE625311FB584C0046466B /* MapKit.framework in Frameworks */,
+				59EE625811FB58530046466B /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		594375A111FB3AA800CCB3CA = {
+			isa = PBXGroup;
+			children = (
+				594375A811FB3AA800CCB3CA /* Classes */,
+				594375A911FB3AA800CCB3CA /* Other Sources */,
+				594375AA11FB3AA800CCB3CA /* Resources */,
+				594375AB11FB3AA800CCB3CA /* Frameworks */,
+				594375B111FB3AA800CCB3CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		594375A811FB3AA800CCB3CA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				59A6549411FB677C00C89F18 /* AnnotationView.h */,
+				59A6549511FB677C00C89F18 /* AnnotationView.m */,
+				59A6549611FB677C00C89F18 /* CurrentLocationAnnotation.h */,
+				59A6549711FB677C00C89F18 /* CurrentLocationAnnotation.m */,
+				594375C011FB3AA800CCB3CA /* OverlayMapperAppDelegate.h */,
+				594375C111FB3AA800CCB3CA /* OverlayMapperAppDelegate.m */,
+				594375C611FB3AA800CCB3CA /* RootViewController.h */,
+				594375C711FB3AA800CCB3CA /* RootViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		594375A911FB3AA800CCB3CA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				594375BA11FB3AA800CCB3CA /* OverlayMapper_Prefix.pch */,
+				594375BE11FB3AA800CCB3CA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		594375AA11FB3AA800CCB3CA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				594375B911FB3AA800CCB3CA /* OverlayMapper-Info.plist */,
+				594375BB11FB3AA800CCB3CA /* InfoPlist.strings */,
+				594375C311FB3AA800CCB3CA /* MainWindow.xib */,
+				594375C911FB3AA800CCB3CA /* RootViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		594375AB11FB3AA800CCB3CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				594375B311FB3AA800CCB3CA /* UIKit.framework */,
+				594375B511FB3AA800CCB3CA /* Foundation.framework */,
+				594375B711FB3AA800CCB3CA /* CoreGraphics.framework */,
+				59EE625211FB584B0046466B /* MapKit.framework */,
+				59EE625711FB58530046466B /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		594375B111FB3AA800CCB3CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				594375B011FB3AA800CCB3CA /* OverlayMapper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		594375AF11FB3AA800CCB3CA /* OverlayMapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 594375CE11FB3AA800CCB3CA /* Build configuration list for PBXNativeTarget "OverlayMapper" */;
+			buildPhases = (
+				594375AC11FB3AA800CCB3CA /* Sources */,
+				594375AD11FB3AA800CCB3CA /* Frameworks */,
+				594375AE11FB3AA800CCB3CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OverlayMapper;
+			productName = OverlayMapper;
+			productReference = 594375B011FB3AA800CCB3CA /* OverlayMapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		594375A311FB3AA800CCB3CA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 594375A611FB3AA800CCB3CA /* Build configuration list for PBXProject "OverlayMapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 594375A111FB3AA800CCB3CA;
+			productRefGroup = 594375B111FB3AA800CCB3CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				594375AF11FB3AA800CCB3CA /* OverlayMapper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		594375AE11FB3AA800CCB3CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594375BD11FB3AA800CCB3CA /* InfoPlist.strings in Resources */,
+				594375C511FB3AA800CCB3CA /* MainWindow.xib in Resources */,
+				594375CB11FB3AA800CCB3CA /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		594375AC11FB3AA800CCB3CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594375BF11FB3AA800CCB3CA /* main.m in Sources */,
+				594375C211FB3AA800CCB3CA /* OverlayMapperAppDelegate.m in Sources */,
+				594375C811FB3AA800CCB3CA /* RootViewController.m in Sources */,
+				59A6549811FB677C00C89F18 /* AnnotationView.m in Sources */,
+				59A6549911FB677C00C89F18 /* CurrentLocationAnnotation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		594375BB11FB3AA800CCB3CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				594375BC11FB3AA800CCB3CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		594375C311FB3AA800CCB3CA /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				594375C411FB3AA800CCB3CA /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		594375C911FB3AA800CCB3CA /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				594375CA11FB3AA800CCB3CA /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		594375CC11FB3AA800CCB3CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		594375CD11FB3AA800CCB3CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+		594375CF11FB3AA800CCB3CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OverlayMapper_Prefix.pch;
+				INFOPLIST_FILE = "OverlayMapper-Info.plist";
+				PRODUCT_NAME = OverlayMapper;
+				SDKROOT = iphoneos4.2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		594375D011FB3AA800CCB3CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OverlayMapper_Prefix.pch;
+				INFOPLIST_FILE = "OverlayMapper-Info.plist";
+				PRODUCT_NAME = OverlayMapper;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		594375A611FB3AA800CCB3CA /* Build configuration list for PBXProject "OverlayMapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594375CC11FB3AA800CCB3CA /* Debug */,
+				594375CD11FB3AA800CCB3CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		594375CE11FB3AA800CCB3CA /* Build configuration list for PBXNativeTarget "OverlayMapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594375CF11FB3AA800CCB3CA /* Debug */,
+				594375D011FB3AA800CCB3CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 594375A311FB3AA800CCB3CA /* Project object */;
+}
